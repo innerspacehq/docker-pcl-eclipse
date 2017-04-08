@@ -1,4 +1,4 @@
-FROM innerspace/docker-pcl:ubuntu-16.04
+FROM innerspace/docker-pcl:ubuntu_16.04
 MAINTAINER Matt MacGillivray
 
 RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
