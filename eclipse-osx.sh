@@ -10,4 +10,4 @@ docker run -it --rm \
 	-e DISPLAY=$ip:0 \
 	-v /tmp/.X11-unix:/tmp/.X11-unix \
 	-v ${HOME}:/home/developer \
-	eclipse:neon eclipse -nosplash
+	innerspace/docker-pcl-eclipse:16.04_neon /opt/eclipse/eclipse -nosplash
